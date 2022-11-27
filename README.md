@@ -16,7 +16,7 @@ Email: zzh@stu.pku.edu.cn
 
 ## 使用说明
 
-0. 运行python程序，生成图形界面，需安装 `numpy`和 `scipy`库。
+0. 运行main.py程序，生成图形界面，需安装 `numpy`和 `scipy`库。
 1. 点击**File**导入文件。
 2. csv或txt文件格式：两列纯数据，第一列为**升序**的time(s)，第二列Delta_T(K)；同一行数据间以**半角逗号**分隔。
 3. 调整**Start 1 < End 1 < Start 2 < End 2**至合适位置，推荐单击输入栏后使用键盘↑↓进行调节，报错可以**Remake**。
@@ -35,6 +35,15 @@ Email: zzh@stu.pku.edu.cn
 
 ---
 
-## License
+## 更新
+
+### 2022.11.24
+
+1. 增加了适配于溶解热实验的校正程序，下载Dilution.py并运行即可。
+2. 物化实验又活了。
+
+---
+
+# License
 
 MIT License
