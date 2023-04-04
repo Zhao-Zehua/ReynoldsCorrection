@@ -31,8 +31,6 @@ Email: zzh@stu.pku.edu.cn
 2. 图片点、线、积分面积等，位于函数 `def dynamic_plot` (line 517)、`def Reynolds_plot` (line 543)。
 3. 积分步长，位于 `def Reynolds` (line 465)，默认值 `dx = 0.005`，`dx`过小将使积分时间过长。
 
-> 寻找积分面积相等的点本来可以写二分法的，但不改也不耽误用所以就懒了。以及，写GUI别用Tkinter！
-
 ---
 
 ## 更新
@@ -41,6 +39,10 @@ Email: zzh@stu.pku.edu.cn
 
 1. 增加了适配于溶解热实验的校正程序，下载Dilution.py并运行即可。
 2. 物化实验又活了。
+
+### 2023.04.04
+
+1. 更完善的项目移步https://github.com/ZhaoZh02/Dissolution-Combustion
 
 ---
 
